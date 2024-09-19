@@ -1,19 +1,35 @@
-body{
+body {
     font-family: Inter;
     background-color: #0f0c25;
     color: #fff;
 }
+
 a {
-    text-decoration: none;  /*Removendo barra que fica em baixo de um link */
+    text-decoration: none;
+    /*Removendo barra que fica em baixo de um link */
     color: aquamarine;
 }
+
 #login {
-    text-align: center; /*Centralizando meu login */
+    text-align: center;
+    /*Centralizando meu login */
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: row;
 }
+
+.name input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #1e1c21;
+    color: #b6b6b6;
+    margin-bottom: 15px;
+}
+
 .email input {
     border-radius: 15px;
     border: none;
@@ -23,6 +39,7 @@ a {
     background-color: #1e1c21;
     color: #b6b6b6;
 }
+
 .senha input {
     border-radius: 15px;
     border: none;
@@ -33,27 +50,33 @@ a {
     color: #b6b6b6;
     margin-top: 15px;
 }
+
 .entrar input {
     cursor: pointer;
     width: 120px;
     height: 40px;
     border-radius: 10px;
     border: none;
-    background-color: rgb(134, 243 , 234);
+    background-color: rgb(134, 243, 234);
     color: #141414;
 }
-input::placeholder{
+
+input::placeholder {
     color: #b6b6b6;
 }
-h1{
+
+h1 {
     color: #fafafa;
 }
-.caixa{
+
+.caixa {
     margin-top: 65px;
 }
-.caixa img{
+
+.caixa img {
     width: 115px;
 }
-input:focus{
+
+input:focus {
     outline: none;
 }
